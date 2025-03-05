@@ -1,4 +1,4 @@
-# This code block is to initialize the terraform configuration 2nd edit change
+# This code block is to initialize the terraform configuration 4th edit change - changes merged from dev branch to main branch 
 terraform {
     required_providers {
         aws = {
