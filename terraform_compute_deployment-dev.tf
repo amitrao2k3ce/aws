@@ -1,4 +1,4 @@
-# This code block is to initialize the terraform configuration 1st edit
+# This code block is to initialize the terraform configuration 2nd edit change
 terraform {
     required_providers {
         aws = {
