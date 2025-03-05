@@ -1,4 +1,14 @@
-# This code block is to configure the AWS provider // First Change
+# This code block is to configure the Terrafrom  provider
+terraform {
+  required_providers { 
+    aws = { 
+      source = "hashicorp/aws" 
+      version = "~> 5.86.0" 
+    } 
+  } 
+}
+
+# This code block is to configure the AWS provider
 provider "aws" {
     region = "ap-south-1"
 }
