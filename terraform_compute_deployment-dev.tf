@@ -1,4 +1,4 @@
-# This code block is to configure the AWS provider 
+# This code block is to configure the AWS provider // First Change
 provider "aws" {
     region = "ap-south-1"
 }
