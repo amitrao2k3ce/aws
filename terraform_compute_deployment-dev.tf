@@ -1,13 +1,3 @@
-# This code block is to initialize the terraform configuration
-terraform {
-    required_providers {
-        aws = {
-            source = "hashicorp/aws"
-            version = "5.86.0"
-        }
-    }
-}
-
 # This code block is to configure the AWS provider 
 provider "aws" {
     region = "ap-south-1"
