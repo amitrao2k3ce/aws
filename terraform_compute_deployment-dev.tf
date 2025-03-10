@@ -1,4 +1,4 @@
-# This code block is to configure the Terrafrom  provider
+# This code block is to configure the Terrafrom  provider - test change from local repo
 terraform {
   required_providers { 
     aws = { 
